@@ -1,3 +1,7 @@
+---
+title: Creating a Model
+nav_order: 2
+---
 # Creating a model in Watson Studio
 
 # watsonx.Governance Starter Lab
