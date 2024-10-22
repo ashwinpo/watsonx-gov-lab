@@ -50,7 +50,7 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
 10. Click the arrow in the top right corner of the Governance tile to view details which will take you to the AI Use Case view again. Observe how this model is now in the development segment of the Lifecycle view.
 ![Factsheet_view](./assets/AI_fact_view_details.png)   
 
-## Step 5: Monitor and Manage the Model
+## Step 4: Monitor and Manage the Model
 
 **Role: MLOps Engineer and Data Scientist**
 
@@ -69,6 +69,6 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
 
 ## Conclusion
 
-You've now explored some of the end-to-end lifecycle management of a regression model using watsonx.governance. This process ensures that your AI models are not only performant but also trackable, monitorable, and compliant with your organization's governance policies.
+You've now explored some of the lifecycle management capabiltiies for a regression model using watsonx.governance. This process ensures that your AI models are not only performant but also trackable, monitorable, and compliant with your organization's governance policies.
 
 
