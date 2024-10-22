@@ -22,7 +22,7 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
 **Role: Model Owner or Model Risk Manager**
 
 1. Expand the left hamburger menu, select "AI use cases" under "AI Governance".
-2. Click "New AI use case" and provide the following details:
+2. Click "New AI use case" (this will open a new tab in the governance console) and provide the following details:
    - Name: "Home Pricing Model"
    - Description: "Predicting Median Home Value to improve coverage assessment accuracy"
    - Owner: Select your username by searching for it
@@ -30,15 +30,20 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
    - Business Entities: Add State Farm Corp which is a glossary of business entities we've created as a sample
      
 3. Click "Save" to establish the AI use case.
-
 ![New AI Use Case](./assets/New_AI_Use_Case.png)
+
+5. An AI use case can reference multiple machine learning models that you can use to solve business problems. Then, data engineers and model evaluators can add models to the model use case and track the model as it progresses through its lifecycle. We will look more into the capabilities of the governance console at a later point, but for now just examine the left hamburger menu of the governance console.
+6. Return to the previous tab which will have "IBM Cloud Pak for Data" in the top left.
+
+
 
 ## Step 3: Track the Model in watsonx.governance
 
 **Role: Data Scientist or ML Engineer**
 
-1. Expand the left hamburger menu, and go to Projects. If you created your own project, select that project. Otherwise, select the Project named "Lab Sample - Home Pricing".
-2. Click on the model "HomePricing_LR".
+1. Ensure you are back in the tab with "IBM Cloud Pak for Data" in the top left. Simply login in a new tab if you lost this screen.
+2. Expand the left hamburger menu, and go to Projects. If you created your own project, select that project. Otherwise, select the Project named "Lab Sample - Home Pricing".
+3. Click on the model "HomePricing_LR".
 **Note**: These next steps may already be done if you are using the Lab Sample project.
 4. Click "Track asset" to associate it with your AI use case.
 ![Track Model](./assets/AI_fact_not_tracked.png)
