@@ -6,7 +6,7 @@ nav_order: 1
 
 # watsonx.Governance Starter Lab
 
-This comprehensive tutorial guides you through the process of managing the lifecycle of a premium regression model using IBM Watson Studio and watsonx.governance. We'll cover both the optional creation of a new model and the management of an existing one, demonstrating how different roles within an organization interact with the AI governance process.
+This quick tutorial guides you through the process of managing the lifecycle of a Home Pricing regression model using watsonx.governance. We'll cover both the optional creation of a new model and the management of an existing one, demonstrating how different roles within an organization interact with the AI governance process.
 
 ## Prerequisites
 
