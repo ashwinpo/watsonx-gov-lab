@@ -57,15 +57,18 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
 1. Expand the left hamburger menu, and go to Deployments. Go to Spaces and find the space you deployed or Lab Sample - Home Pricing if you skipped the model creation steps.
 2. Click on a model's name to open its deployment details.
 3. Navigate to the "Evaluations" tab (**Note**: If you this tab suggests Monitoring still needs to be setup, try another model where this is already setup. Or you may have missed this step in the Model Creation optional portion)
+![ModelMonitoring](./assets/ModelMonitoring.png)   
 4. Here we can see the following evaluation dimensions specific to regression and any violation of thresholds:
    - Mean Absolute Error (MAE)
    - Root Mean Square Error (RMSE)
    - R-squared (R²)
    - Fairness Evaluation
    - Data Drift
-5. Navigate to the "Evaluations" tab
+5. Navigate to the "Transactions" tab
+![Transactions](./assets/Transactions.png) 
 6. Click the bar with most recent transactions on the chart. You should see transactions appear at the bottom in a table.
 7. Click the Explain button to see the feature influence analysis.
+![ExplainTransaction](./assets/ExplainTransaction.png) 
 
 ## Conclusion
 
