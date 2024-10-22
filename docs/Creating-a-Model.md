@@ -12,10 +12,12 @@ This tutorial guides you through the process of creating a Home Pricing regressi
 **Role: Data Scientist or ML Engineer**
 
 1. Log into Cloud Pak for Data using your credentials.
-2. In the top-left corner, click on the hamburger menu and select "Deployments".
-3. In the top-right corner, clock on "New deployment space".
-4. Provide a meaningful name with your initials (e.g., "Home Pricing Lab - AP") for your space, put it in Development stage, and create it.
-5. You hae now created a space which will contain deployable assets, deployments, deployment jobs, associated input and output data, and the associated environments. You can use spaces to deploy various assets and manage your deployments. Deployment spaces are not associated with projects. You can promote assets from multiple projects to a space, and you can deploy assets to more than one space. For example, you might have a test space for evaluating deployments, and a production space for deployments that you want to deploy in business applications.
+2. In the top-left corner, click on the hamburger menu and select "Deployments". Click the "Spaces" Tab at the top.
+![Deployments](./assets/Deployments.png)
+4. In the top-right corner, clock on "New deployment space".
+5. Provide a meaningful name with your initials (e.g., "Home Pricing Lab - AP") for your space, put it in Development stage, and create it.
+6. You have now created a space which will contain deployable assets, deployments, deployment jobs, associated input and output data, and the associated environments. You can use spaces to deploy various assets and manage your deployments. Deployment spaces are not associated with projects. You can promote assets from multiple projects to a space, and you can deploy assets to more than one space. For example, you might have a test space for evaluating deployments, and a production space for deployments that you want to deploy in business applications.
+![Deployment_Space](./assets/DeploymentSpaces.svg)
 
 ## Step 2: Set Up Your Project
 
@@ -59,7 +61,8 @@ If you're creating a new model:
 2. Execute each cell in order, following any inline instructions.
 3. You will need to add your user credentials to one of the code blocks when deploying the model from code.
 4. After running all cells, you should have a trained Home Pricing regression model saved in your project.
-5. Download the training and testing files locally.
+![Notebook_ran](./assets/Notebook_ran.png)
+5. Download the training and testing files locally. (see them in the project view > click the elipses on the right > select download)
 
 ## Step 5: Setup Monitoring for the Model
 
