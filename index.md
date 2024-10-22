@@ -31,7 +31,7 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
      
 3. Click "Save" to establish the AI use case.
 
-![New AI Use Case](./assets/images/New_AI_Use_Case.png)
+![New AI Use Case](./assets/New_AI_Use_Case.png)
 
 ## Step 3: Track the Model in watsonx.governance
 
@@ -40,13 +40,15 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
 1. Expand the left hamburger menu, and go to Projects. If you created your own project, select that project. Otherwise, select the Project named "Lab Sample - Home Pricing".
 2. Click on the model "HomePricing_LR".
 **Note**: These next steps may already be done if you are using the Lab Sample project.
-4. Click "Track asset" to associate it with your AI use case. 
+4. Click "Track asset" to associate it with your AI use case.
+![Track Model](./assets/AI_fact_not_tracked.png)
 5. Select the appropriate approach (Linear Regression for LR, Decision Tree for RF) and version for your model.
 6. Create a New Record for this asset
 7. Set is as experimental for now and save.
 **Note**: These steps will now be applicable to all.
 9. Export the AI Factsheet Report as a PDF by clicking the link in the top right and explore the provided document.
 10. Click the arrow in the top right corner of the Governance tile to view details which will take you to the AI Use Case view again. Observe how this model is now in the development segment of the Lifecycle view.
+![Factsheet_view](./assets/AI_fact_view_details.png)   
 
 ## Step 5: Monitor and Manage the Model
 
@@ -54,13 +56,16 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
 
 1. Expand the left hamburger menu, and go to Deployments. Go to Spaces and find the space you deployed or Lab Sample - Home Pricing if you skipped the model creation steps.
 2. Click on a model's name to open its deployment details.
-3. Navigate to the "Evaluations" tab 
-4. Here we can see the following evaluation dimensions:
+3. Navigate to the "Evaluations" tab (**Note**: If you this tab suggests Monitoring still needs to be setup, try another model where this is already setup. Or you may have missed this step in the Model Creation optional portion)
+4. Here we can see the following evaluation dimensions specific to regression and any violation of thresholds:
    - Mean Absolute Error (MAE)
    - Root Mean Square Error (RMSE)
    - R-squared (R²)
-   - Feature importance
-   - Data drift detection
+   - Fairness Evaluation
+   - Data Drift
+5. Navigate to the "Evaluations" tab
+6. Click the bar with most recent transactions on the chart. You should see transactions appear at the bottom in a table.
+7. Click the Explain button to see the feature influence analysis.
 
 ## Conclusion
 
