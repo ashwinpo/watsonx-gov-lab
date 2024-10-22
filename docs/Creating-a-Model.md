@@ -7,7 +7,8 @@ nav_order: 2
 This tutorial guides you through the process of creating a Home Pricing regression model using Projects on Cloud Pak for Data via an existing Jupyter Notebook.
 
 ## Step 1: Generate your API Key
-If you already have your Cloud 
+If you already have your Cloud Pak for Data API Key associated with your account, you can skip this step.
+
 1. When we deploy our regression model later on, you will need the API key associated with your Cloud Pak for Data account. This can be done easily by clicking on your profile logo in the top right.
 2. Click Profile and Settings
 3. In the top right, select API Key
