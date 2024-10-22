@@ -31,6 +31,8 @@ If you decided to skip this step, please use the Home Pricing Random Forest Mode
      
 3. Click "Save" to establish the AI use case.
 
+![New AI Use Case](/docs/assets/New_AI_Use_Case.png)
+
 ## Step 3: Track the Model in watsonx.governance
 
 **Role: Data Scientist or ML Engineer**
