@@ -35,7 +35,8 @@ If you already have your Cloud Pak for Data API Key associated with your account
 2. Click "New project" and select "Create an empty project".
 3. Provide a meaningful name with your initials (e.g., "Home Pricing Dev - AP") and a description for your project.
 4. Click "Create" to finalize the project setup.
-5. You have now created a Project! A project is a collaborative workspace where you work with data and other assets to accomplish a particular goal.
+5. Go to the Manage tab and find your Project ID. Save it somewhere secure, as you'll need it when running the notebook.
+6. You have now created a Project! A project is a collaborative workspace where you work with data and other assets to accomplish a particular goal.
 Your project can include these types of resources:
 
 - Collaborators are the people who you work within your project.
@@ -51,7 +52,7 @@ Your project can include these types of resources:
 
 ## Step 4: Import the Jupyter Notebook
 
-**Role: Data Scientist**
+**Role: Data Scientist or ML Engineer**
 
 1. In your project, click "Add to project" in the top-right corner and select "Notebook".
 2. Choose "From URL" on the left sidebar and enter this URL: `https://github.com/ashwinpo/watsonx-gov-lab/blob/main/Housing%20Modeling.ipynb`.
@@ -61,7 +62,7 @@ Your project can include these types of resources:
    
 ## Step 5: Run the Notebook
 
-**Role: Data Scientist**
+**Role: Data Scientist or ML Engineer**
 
 If you're creating a new model:
 
@@ -73,17 +74,15 @@ If you're creating a new model:
 ![Notebook_ran](../assets/Notebook_ran.png)
 6. Download the training and testing files locally. (see them in the project view > click the ellipses on the right > select download)
 
+**Note**: You could have alternatively saved the model to a project and use the UI to promote it to a Space and subsequently deploy it in this Space. Instead we deployed programmaticallly.
+
 ## Step 6: Setup Monitoring for the Model
 
 **Role: Data Scientist**
 
-1. In the top-left corner, click on the hamburger menu and select "Deployments". Click the "Spaces" Tab at the top.
-2. Find the Space you created in Step 2. Click into it.
-3. See the Models you just deployed under Deployments.
-**Note**: You could have alternatively saved the model to a project and use the UI to promote it to a Space and subsequently deploy it in this Space. Instead we deployed programmaticallly.
-4. Click into the Home Pricing Random Forest Model. Go to the "Evaluations" tab.
-5. Click Configure OpenScale evaluation Settings.
-![configure_open](../assets/configure_open.png)
+1. In the top-left corner, click on the hamburger menu and select "Instances" under "Services". Find the service with OpenScale in it's name. Click the 3 dots to the right and select "Open". OpenScale is the service that hosts the model monitoring capabilities. The information from this monitor will propegate to other views and dashboards for different users.
+4. Click into the Home Pricing Random Forest Model.
+5. Click Actions in the top right and Configure Monitors.
 6. Use these settings: System Managed, Numeric/Categorical, Regression. Click Next.
 ![config_1](../assets/config_1.png)
 7. Upload the training data file (`training_dataset_housing.csv`) and set it as comma separated -- If you did not download this, simply go back to the project you had created and find the csv file > click the ellipses on the right > select download. Click Next.
