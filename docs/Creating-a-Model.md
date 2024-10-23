@@ -80,9 +80,9 @@ If you're creating a new model:
 
 **Role: Data Scientist**
 
-1. In the top-left corner, click on the hamburger menu and select "Instances" under "Services". Find the service with OpenScale in it's name. Click the 3 dots to the right and select "Open". OpenScale is the service that hosts the model monitoring capabilities. The information from this monitor will propegate to other views and dashboards for different users.
+1. In the top-left corner, click on the hamburger menu and select "Instances" under "Services". Find the service with OpenScale in it's name. Click the 3 dots to the right and select "Open". OpenScale is the service that hosts the model monitoring capabilities. The information from this monitor will propagate to other views and dashboards for different users.
 4. Click into the Home Pricing Random Forest Model.
-5. Click Actions in the top right and Configure Monitors.
+5. Click Actions in the top right and "Configure Monitors".
 6. Use these settings: System Managed, Numeric/Categorical, Regression. Click Next.
 ![config_1](../assets/config_1.png)
 7. Upload the training data file (`training_dataset_housing.csv`) and set it as comma separated -- If you did not download this, simply go back to the project you had created and find the csv file > click the ellipses on the right > select download. Click Next.
