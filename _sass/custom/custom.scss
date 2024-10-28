@@ -1,6 +1,8 @@
 .site-title {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1rem;
-    line-height: 1.4;
+    padding-top: 1rem !important; // Added !important to override
+    padding-bottom: 1rem !important;
+    margin-left: 0rem !important;
+    line-height: 1.4 !important;
+    white-space: normal !important; // This helps if text is wrapping oddly
+    font-size: 14px !important; // Adjust size if needed
   }
