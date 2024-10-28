@@ -22,8 +22,8 @@ If not, let's make sure you are on the right profile. A Profile configures the u
 
 Click on the persona icon in the top right. Click change profile > 
     
-    - **watsonx-goverance MRG Master**: This will configure the UI to align with MRG use-cases. If you want to see a pre populated dashboard -- select this.
-    - **watsonx-goverance Modules Master**: This will give you all the necessary permissions to create your own workflows. **Default to this.**
+- **watsonx-goverance MRG Master**: This will configure the UI to align with MRG use-cases. If you want to see a pre populated dashboard -- select this.
+- **watsonx-goverance Modules Master**: This will give you all the necessary permissions to create your own workflows. **Default to this.** You will not see a pre-populated dashboard in this profile.
 
 ![OpenPages-profile](../assets/OpenPages-profile.png)
 
