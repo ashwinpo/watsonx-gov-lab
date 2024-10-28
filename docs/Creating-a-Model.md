@@ -1,6 +1,6 @@
 ---
 title: Creating a Model
-nav_order: 2
+nav_order: 4
 ---
 # Creating a Model for tracking in watsonx.governance
 

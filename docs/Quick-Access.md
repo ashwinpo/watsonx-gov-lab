@@ -1,6 +1,6 @@
 ---
 title: Quick Access Instructions
-nav_order: 3
+nav_order: 2
 ---
 # Quick Access
 
