@@ -8,6 +8,8 @@ nav_order: 1
 
 This quick tutorial guides you through the process of managing the lifecycle of a Home Pricing regression model using watsonx.governance. We'll cover both the optional creation of a new model and the management of an existing one, demonstrating how different roles within an organization interact with the AI governance process.
 
+**Note**: This is a tailored set of labs and instructions NOT official product documentation which can be found [here](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/xgov-overview.html?context=wx).
+
 ## Prerequisites
 
 - Access to Cloud Pak for Data environment

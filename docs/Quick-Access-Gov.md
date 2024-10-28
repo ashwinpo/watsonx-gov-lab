@@ -1,6 +1,7 @@
 ---
-title: Quick Access Instructions - Governance Console 
-nav_order: 3
+title: Governance Console 
+parent: Quick Access Instructions
+nav_order: 1
 ---
 # Quick Access to Governance Console on Cloud Pak for Data
 
