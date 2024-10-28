@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Starter Lab
 layout: home
 nav_order: 1
 ---
