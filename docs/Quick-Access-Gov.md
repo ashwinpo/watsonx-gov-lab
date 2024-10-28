@@ -20,7 +20,9 @@ You should see a dashboard like the one below.
 
 If not, let's make sure you are on the right profile. A Profile configures the user interface (UI) for a set of users. You will have more than one profile in your  system which will grant you access to different views.
 
-Click on the persona icon in the top right. Click change profile > watsonx-goverance MRG Master. This will configure the UI to align with MRG use-cases.
+Click on the persona icon in the top right. Click change profile > 
+    - **watsonx-goverance MRG Master**: This will configure the UI to align with MRG use-cases. If you want to see a pre populated dashboard -- select this.
+    - **watsonx-goverance Modules Master**: This will give you all the necessary permissions to create your own workflows. **Default to this.**
 
 ![OpenPages-profile](../assets/OpenPages-profile.png)
 
