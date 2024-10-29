@@ -62,7 +62,7 @@ nav_order: 5
 4. Enter in a name followed by your initials (i.e. 'Fraud Detection – EG')
 5. Assign yourself in the Owner field
 6. Enter in a description for your Use Case
-7. Click Add under Primary Business Entity. Then search for 'State Farm' business entity. Select is and add.
+7. Click Add under Primary Business Entity. Then search for a business entity with your company name. Select it and add.
 8. Save Use Case
 9. You should now be looking at the Use Case. Notice how the status is equal to 'Proposed'
 10. On the right side of the screen, you can read the general information on the object you are looking at or instructions of what to complete during a workflow stage. Here the Use Case is in the stage 'Use Case Data Gathering' so it is giving information of what to review.
