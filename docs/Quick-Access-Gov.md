@@ -28,4 +28,3 @@ Click on the persona icon in the top right. Click change profile >
 
 ![OpenPages-profile](../assets/OpenPages-profile.png)
 
-echo 'export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"' >> ~/.zshrc
