@@ -26,3 +26,6 @@ This documentation page is meant to serve as a tailored set of labs and instruct
 5. [Governance Console - Model Risk Governance Workflows Docs](https://www.ibm.com/docs/en/openpages/9.0.0?topic=workflow-model-risk-governance-workflows)
 6. [Governance Console - Regulatory Compliance Workflows Docs](https://www.ibm.com/docs/en/openpages/9.0.0?topic=workflow-regulatory-compliance-management-workflows)
 7. [Governance Console - Full User Guide PDF](https://www.ibm.com/docs/en/SSFUEU_9.0.0/pdf/op_user_guide.pdf)
+8. [SageMaker Integration Overview](https://aws.amazon.com/blogs/ibm-redhat/optimize-ai-governance-with-amazon-sagemaker-and-ibm-watsonx-governance/)
+9. [Set up monitoring for a SageMaker Model in watsonx.governance](https://github.com/IBM/monitor-sagemaker-models-with-watson-openscale/blob/main/README.md)
+
